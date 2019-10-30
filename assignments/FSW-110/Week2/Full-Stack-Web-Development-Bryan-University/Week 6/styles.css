@@ -1,0 +1,112 @@
+body {
+    background-color: lightgray;
+}
+#flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    border: 5px ridge gray;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    border: 3px solid darkmagenta;
+    background-color: magenta;
+    transition: border 1s ease-in-out 5ms, width 1s linear 1s, background-color 500ms ease-in;
+}
+.box1:hover {
+    width: 400px;
+    height: 300px;
+    border: 15px dashed darkslategray;
+    background-color: lightskyblue;
+}
+
+.box2 {
+    width: 250px;
+    height: 150px;
+    border: 3px solid darkviolet;
+    background-color: palevioletred;
+    transition: height 800ms ease-out;
+}
+p {
+    display: none;
+    background-color: black;
+    color: plum;
+    padding: 25px;
+}
+.box2:hover p {
+    display:block;
+}
+.box2:hover {
+    height:225px;
+}
+.box3 {
+    width: 400px;
+    height: 200px;
+    border: 5px dotted orangered;
+    color: orange;
+    background-color: black;
+    font-size: 50px;
+    display: inline-block;
+    justify-content: center;
+    transition: width 1s linear, height 1500ms linear, font-size 2s ease-out;
+}
+.box3:hover {
+    font-size: 0px;
+    background: url("https://i.imgflip.com/spudx.jpg") no-repeat;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+}
+.box4 {
+    padding: 150px;
+    border: 7px inset dodgerblue;
+    color: white;
+    text-decoration: dotted;
+    background-color: lightskyblue;
+    font-size: 25px;
+    transition: border-radius 1s linear 500ms, font-size 1500ms ease-in;
+}
+.box4:hover {
+    height: 150px;
+    width: 150px;
+    background-color: lightseagreen;
+    border-radius: 50%;
+    border: 4px dotted darkcyan;
+    color: white;
+    text-shadow: 5px 5px 9px black, 5px 5px 15px darkblue, 5px 5px 10px lightblue;
+    box-shadow: 50px 50px 50px black;
+    font-size: 35px;
+    align-items: center;
+}
+.box5 {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    transition: background-color 1500ms linear 500ms, color 1s ease-out, border 2s ease-in-out, text-decoration 1s linear 500ms;
+}
+.box5:hover {
+    background-color: steelblue;
+    color: white;
+    text-decoration: underline;
+    border: 8px groove darkgrey;
+}
+.box6 {
+    width: 50px;
+    height: 50px;
+    border: 10px dotted white;
+    background-color: darkorchid;
+    transition: opacity 1.5s ease-in 500ms, width 1500ms ease-in-out, border 2s linear, height 1s ease-out 500ms;    
+}
+.box6:hover {
+    opacity: 0.3;
+    width: 700px;
+    height: 150px;
+    border: 3px dashed white;
+
+}

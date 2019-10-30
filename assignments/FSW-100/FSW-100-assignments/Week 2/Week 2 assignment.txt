@@ -1,0 +1,55 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>CKrause's Website</title>
+    </head>
+    <body>
+        <div>
+            <h1>The Importance of Education regarding the Amazon Rainforest</h1>
+            <img src="https://www.thesun.co.uk/wp-content/uploads/2019/08/NINTCHDBPICT000516041634.jpg" alt height="125"/>
+            <img src="https://cdn.peruforless.com/blog/wp-content/uploads/2014/10/jungle-animals.jpg" alt height="125"/>
+            <img src="https://i.pinimg.com/originals/3f/81/d3/3f81d3c3cd9f17f0162b484cd853dde3.jpg" alt height="125"/>
+        </div>
+        <div>
+            <h2>Links</h2>
+            <p>Education is key!</p>
+            <a href="https://www.nationalgeographic.com/environment/2018/11/how-cutting-the-amazon-forest-could-affect-weather/">National Geographic Article</a>
+            <a href="https://www.marketwatch.com/story/about-the-amazon-rainforest-fires-lets-separate-fact-from-fiction-2019-08-29">Information offered by Market Watch</a>
+            <a href="https://time.com/5661162/why-the-amazon-is-on-fire/">Viewpoints from TIME Magazine</a>
+        </div>
+        <div>
+            <h3> The Importance of Education and Fact Checking</h3>
+            <p> Many claims and viewpoints have flooded the media, however the importance of doing one's own research from reputable sources is vital to prevent the spread of misinformation, no matter which side of a matter you believe yourself to be on.
+        </div>
+        <div>
+            <h4>How to help</h4>
+            <span>As of now, one of the best tools is personal education.  </span>
+            <span>The next step is to share the education you've obtained, and to share this education to prevent panic and also aid in the scientific pursuit of truth.</span>
+        </div>
+        <div>
+            <h5>Ways That Everyone can help the Amazon Rainforest.</h5>
+            <ol>
+                <li>Donate to reputable agencies (listed below)</li>
+                <li>Search for and buy products that protect against deforestation. (they will be labeled FSC or RA certified products)</li>
+                <li>Sign petitions.</li>
+                <li>Reduce paper, wood, and beef consumption. Our use of paper and wood could be reduced, and farmers clear areas of rainforest to make room for rising beef/cattle demands.</li>
+                <li>Take responsibility for your own education.</li>
+            </ol>
+        </div>
+        <div>
+            <h6>Agencies to Donate To/Research/Learn From</h6>
+            <ul>
+                <li>Amazon Watch</li>
+                <li>Rainforest Alliance (RA)</li>
+                <li>World Wildlife Fund</li>
+                <li>Forest Stewardship Council</li>
+                <li>Greenpeace</li>
+                <li>Sunrise Movement</li>
+                <li>Rainforest Action Network</li>
+                <li>One Tree Planted</li>
+                <li>Amazon Conservation</li>
+                <li>Rainforest Trust</li>
+            </ul>
+        </div>
+    </body>
+</html>

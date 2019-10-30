@@ -1,0 +1,134 @@
+@media only screen and (max-width: 768px) {
+.grid1 {
+    font-size: 0px;
+    background-color: #F5C6D6;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid2 {
+    font-size: 0px;
+    background-color: #EE2E84;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid3 {
+    font-size: 0px;
+    background-color: #EE2E84;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid4 {
+    font-size: 0px;
+    background-color: #EE2E84;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid5 {
+    font-size: 0px;
+    background-color: #EE2E84;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid6 {
+    font-size: 0px;
+    background-color: #85CFD8;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid7 {
+    font-size: 0px;
+    background-color: #85CFD8;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid8 {
+    font-size: 0px;
+    background-color: #8DC63F;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+.grid9 {
+    font-size: 0px;
+    background-color:#E76E34;
+    display: inline-block;
+    border:1px solid white;
+    padding:30px;
+    width: 97%;
+}
+}
+@media only screen and (min-width:768px) {
+    .grid1 {
+        grid-area: One;
+        background-color: #F5C6D6;
+        font-size: 0px
+    }
+    .grid2 {
+        grid-area: Two;
+        font-size:0px;
+        background-color:#EE2E84;
+    }
+    .grid3 {
+        grid-area: Three;
+        font-size:0px;
+        background-color:#EE2E84;
+    }
+    .grid4 {
+        grid-area: Four;
+        font-size:0px;
+        background-color:#EE2E84;
+    }
+    .grid5 {
+        grid-area: Five;
+        font-size:0px;
+        background-color:#EE2E84;
+    }
+    .grid6 {
+        grid-area: Six;
+        font-size: 0px;
+        background-color: #85CFD8;
+    }
+    .grid7 {
+        grid-area: Seven;
+        font-size: 0px;
+        background-color: #85CFD8;
+    }
+    .grid8 {
+        grid-area: Eight;
+        font-size: 0px;
+        background-color: #8DC63F;
+    }
+    .grid9 {
+        grid-area: Nine;
+        font-size: 0px;
+        background-color: #E76E34;
+    }
+    #grid-container {
+        display:grid;
+        grid-template-areas:
+        'One One One One'
+        'Two Three Four Five'
+        'Six Six Seven Seven'
+        'Eight Eight Eight Nine';
+        background-color: white;
+        grid-gap: 15px;    
+    }
+    #grid-container>div {
+        padding: 70px
+    }
+}

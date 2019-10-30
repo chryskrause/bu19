@@ -1,0 +1,290 @@
+*{
+    background-color: lightseagreen;
+}
+@font-face {
+    font-family: 'Grenze', serif;
+    src: url(https://fonts.google.com/?selection.family=Grenze);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-family: 'Grenze', serif;
+    padding: 20px;
+    background-color: lightgray;
+    color: seagreen;
+    text-shadow: 3px 3px 6px black;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 70px;
+    text-decoration: underline;
+}
+#top{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#pics {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 200px;
+    justify-content: center;
+}
+#pics>img {
+    height: 100%;
+    width: auto;
+    margin: 5px;
+}
+h3 {
+    color: seagreen;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    background-color: lightgray;
+    padding: 15px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#tree1 {
+    display: grid;
+    grid-template-columns: repeat (4, auto);
+    grid-template-rows: repeat (2, auto);
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    background-color: lightgray;
+    margin: 0px;
+    justify-content: space-between;
+}
+#tree1>img {
+    height: 100%;
+    width: auto;
+}
+#tree1>#pic1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 200px;
+    margin-right: 10px;
+}
+#tree1>#colorado {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightgray;
+}
+#tree1>#info1 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+#tree1>#pic2{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    height: 200px;
+    margin-left: 10px;
+}
+#tree2 {
+    display: grid;
+    grid-template-columns: repeat (4, auto);
+    grid-template-rows: repeat (2, auto);
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    background-color: lightgray;
+    margin: 0px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#tree2>img {
+    height: 100%;
+    width: auto;
+}
+#tree2>#pic3 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 200px;
+    margin-right: 10px;
+}
+#tree2>#kousa {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightgray;
+}
+#tree2>#info2 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+#tree2>#pic4{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    height: 200px;
+    margin-left: 10px;
+}
+#tree3 {
+    display: grid;
+    grid-template-columns: repeat (4, auto);
+    grid-template-rows: repeat (2, auto);
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    background-color: lightgray;
+    margin: 0px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#tree3>img {
+    height: 100%;
+    width: auto;
+}
+#tree3>#pic5 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 200px;
+    margin-right: 10px;
+}
+#tree3>#willow {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightgray;
+}
+#tree3>#info3 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+#tree3>#pic6{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    height: 200px;
+    margin-left: 10px;
+}
+#tree4 {
+    display: grid;
+    grid-template-columns: repeat (4, auto);
+    grid-template-rows: repeat (2, auto);
+    border: 2px solid black;
+    box-shadow: 1px 1px 1px black;
+    background-color: lightgray;
+    margin: 0px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+#tree4>img {
+    height: 100%;
+    width: auto;
+}
+#tree4>#pic7 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 200px;
+    margin-right: 10px;
+}
+#tree4>#oak {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    background-color: lightgray;
+}
+#tree4>#info4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+#tree4>#pic8{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    height: 200px;
+    margin-left: 10px;
+}
+#moreinfo {
+    color: black;
+    font-size: 35px;
+    padding: 50px;
+    font-weight: 1100;
+    transition: background-color 1s linear, text-decoration 1s linear 500ms;
+}
+#moreinfo:hover {
+    text-decoration: underline;
+    background-color: lightgray;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    font-weight: 800;
+    padding: 20px;
+}
+a{
+    color: blue;
+    text-decoration: underline;
+}
+#aboutus {
+    text-align: center;
+    color: seagreen;
+    text-shadow: 2px 2px 2px black;
+    text-decoration: underline;
+    font-size: 60px;
+    font-weight: bold;
+}
+#aboutus1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    color: black;
+}
+#aboutus3 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+#aboutus3:hover {
+    padding: 15px;
+    background-color: lightgray;
+}
+#aboutus4 {
+    font-size: 20px;
+}
+#contact {
+    font-size:60px;
+    text-decoration: underline;
+    text-align: center;
+    color: seagreen;
+}
+#methods {
+    display: block;
+    font-size: 30px;
+}
+#methods>li {
+    font-size:25px;
+}
+
+
