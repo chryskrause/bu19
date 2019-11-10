@@ -21,13 +21,18 @@ function scrollFunc () {
 }
 
 
-/*
 document.querySelector("#box").addEventListener("onkeypress", onKey);
-
-var keyCode = window.event ? window.event.keyCode : event.which;
-changeColor(KeyCode)
-function onKey (keyCode)
+function onKey () {
     if (keyCode === 66){
-        document.querySelector("#box").style.backgroundColor = "blue";
-    }
-    */
+        document.querySelector("box").style.backgroundColor = "blue";
+    } else if (event.keyCode === 82){
+        document.querySelector("box").style.backgroundColor = "red"; 
+    } else if (keyCode === 89) {
+        document.querySelector("box").style.backgroundColor = "yellow";
+    } else if (keyCode === 71) {
+        document.querySelector("box").style.backgroundColor = "green";
+    } else if (keyCode === 79) {
+        document.querySelector("box").style.backgroundColor = "orange";
+    } 
+}
+
