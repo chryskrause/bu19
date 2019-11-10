@@ -24,3 +24,5 @@ function stringy (characterCount){
     console.log(characterCount.length / 2)
 }
 var a = stringy ("These are my characters")
+
+
