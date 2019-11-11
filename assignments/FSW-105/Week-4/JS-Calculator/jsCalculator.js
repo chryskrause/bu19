@@ -13,7 +13,7 @@ const answerOperation = readline.question("Would you like to add, subtract, mult
             console.log(addNums())
         }
     }
-answerOperation(addNums)
+//answerOperation(addNums)
 
 /*
 Function final Answer() { 
