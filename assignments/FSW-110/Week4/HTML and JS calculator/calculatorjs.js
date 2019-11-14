@@ -1,6 +1,5 @@
 document.body.style.backgroundColor = "lightblue";
 
-
 /*
 <div id="add">
         Addition <input type="number" id="num1"/>

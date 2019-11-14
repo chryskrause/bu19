@@ -51,15 +51,24 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
             gender: "female"
         }
     ]
-        for ( var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
-            if (peopleWhoWantToSeeMadMaxFuryRoad.age >= 18){
-                console.log("is old enough to see Mad Max")
-            } else {
-                console.log("is not old enough to see Mad Max")
-            }
-        }
+
+for (let i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+    if (peopleWhoWantToSeeMadMaxFuryRoad[i].age > 18){
+        console.log(peopleWhoWantToSeeMadMaxFuryRoad[i].name + 'is old enough to see movie')
+    } else {
+        console.log( 'is not old enough to see movie')
+    }
+    
+}
+//console.log(peopleWhoWantToSeeMadMaxFuryRoad[0])
 
 // else if (peopleWho)
+
+for (i = 0; i < 100; i++){
+    if (i % 2 === 0) {
+    console.log
+    }
+}
 
 
 
