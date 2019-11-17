@@ -11,10 +11,11 @@ document.body.style.backgroundColor = "lightblue";
 //const addAll = document.getElementById("add");
 const number1 = document.getElementById("num1");
 const number2 = document.getElementById("num2");
-document.getElementById("addbutton").addEventListener("onclick", answer1);
+document.getElementById("addbutton").addEventListener("onclick", answer1());
 function answer1 (number1, number2){
      (number1 + number2);    
 }
+answer1(number1, number2)
 
 
 /*Note: even when I tried an alert, I got NaN and that number1 and number2 are undefined or something.
