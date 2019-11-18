@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header">Welcome to Turbulence Airlines! Please enter your information!</h1>
+    <form name="passengersInfo" id="form1">
+        First Name: <input name="fName" required/>
+        <br>
+        Last Name: <input name="lName" required/>
+        <br>
+        Age: <input name="age" type="number" max="105" min="0"/>
+        <br>
+        <br>
+        Gender
+        <br>
+        Male: <input type="radio" name="gender" value="Male"/>
+        Female: <input type="radio" name="gender" value="Female"/>
+        <br>
+        <br>
+        Desired Travel Destination:
+        <br>
+        <select name="city">
+            <option value="Venice">Venice</option>
+            <option value="Cancun">Cancun</option>
+            <option value="Seattle">Seattle</option>
+            <option value="Manchester">Manchester</option>
+            <option value="Dubai">Dubai</option>
+        </select>
+        <br>
+        <br>
+        Any Dietary Restrictions?
+        <br>
+        Vegetarian <input type="checkbox" value="Vegetarian" name="food"/>
+        Kosher <input type="checkbox" value="Kosher" name="food"/>
+        Lactose Free <input type="checkbox" value="Lactose Free" name="food"/>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+    <script src="formEvents.js"></script>
+</body>
+</html>

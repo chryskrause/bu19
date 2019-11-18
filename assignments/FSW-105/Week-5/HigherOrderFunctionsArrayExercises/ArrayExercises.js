@@ -178,3 +178,4 @@ const result16 = arr16.reduce(function(final5, arrOfArrs){
 console.log(result16)
 
 // node ArrayExercises.js
+
