@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <div id="add">
-        Addition <input type="text" id="num1">
-        <input type="text" id="num2">
-        <button id="addbutton">Get Answer</button>
+        Addition <input type="text" name='numAdd1' id="numAdd1" /> +
+        <input type="text" name='numAdd2' id="numAdd2" />
+        <button id="addBtn">Get Answer</button>
+        <p id='showAddition'></p>
     </div>
-        
+    <br>
     <div id="subtract">
-        Subtraction<input type="number" id="num3">
-        <input type="number" id="num4">
-        <button type="button" id="subtractbutton">Get Answer</button>
+        Subtraction<input type="text" name="numSub3" id="numSub3" /> -
+        <input type="text" name="numSub4" id="numSub4" />
+        <button id="subtractBtn">Get Answer</button>
+        <p id="showSubtraction"></p>
     </div>
-
+    <br>
     <div id="multiply">
-        Multiplication<input type="number" id="num5">
-        <input type="number" id="num6">
-        <button type="button" id="multiplybutton">Get Answer</button>
+        Multiplication<input type="text" name="num5" id="num5" /> *
+        <input type="text" name="num6" id="num6" />
+        <button id="multBtn">Get Answer</button>
+        <p id="showMultiply"></p>
     </div>
     <script src="calculatorjs.js"></script>
 </body>
+
 </html>
