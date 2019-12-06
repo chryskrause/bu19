@@ -1,6 +1,5 @@
-// The "submit" event refreshes your browser by default
-// use "e.preventDefault()" in the first line of your callback function to prevent this
-// remember to pass "e" into the callback function
-document.getElementById("submit-me").addEventListener("click", (event) => {
-    event.preventDefault();
-})
+// make the box disapear when the user clicks it
+
+document.addEventListener("click", () =>
+    document.querySelector(".red-box").style.display = "none"
+);
