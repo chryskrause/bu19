@@ -36,5 +36,4 @@ function forwardMarch () {
 }
 forwardMarch(action)
 
-// node consoleRPG.js
 
