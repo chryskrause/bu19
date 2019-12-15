@@ -1,0 +1,12 @@
+{
+    "menu": [
+                {
+        "appetizers": ["fried pickles", "half sandwich", "cheese fries"],
+        "cold sandwiches": ["turkey", "chicken salad", "tuna"],
+        "hot sandwiches": ["buffalo chicken", "monte cristo", "grilled cheese"],
+        "dessert": ["chocolate chip cookie", "brownie", "frozen yogurt"],
+        "drinks": ["bottled water", "lemonade", "soda", "strawberry smoothie"]
+                }
+    ]
+
+}
