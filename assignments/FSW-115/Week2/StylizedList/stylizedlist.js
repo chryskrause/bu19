@@ -43,19 +43,19 @@ document.body.appendChild(x).innerHTML = "Princess Leia";
 
 const yy = document.createElement("LI");
 const tt = document.createTextNode("Name: " + lOrgana.name);
-yy.setAttribute("style", "font-size: 20px;")
+yy.setAttribute("style", "font-size: 20px;");
 yy.appendChild(tt);
 document.getElementById("myUL").appendChild(yy);
 
 const xx = document.createElement("LI");
 const ttt = document.createTextNode("Gender: " + lOrgana.gender);
 xx.appendChild(ttt);
-document.getElementById("myUL").appendChild(xx)
+document.getElementById("myUL").appendChild(xx);
 
 const xxx = document.createElement("LI");
 const tttt = document.createTextNode("Films: " + lOrgana.films);
 xxx.appendChild(tttt);
-document.getElementById("myUL").appendChild(xxx)
+document.getElementById("myUL").appendChild(xxx);
 
 document.getElementById("myUL").style.backgroundColor = "lightblue";
 document.getElementById("myUL").style.color = "yellow";
