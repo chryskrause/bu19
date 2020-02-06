@@ -14,9 +14,3 @@ function Superhero(props){
 
 export default Superhero
 
-/*
-.name1{grid-area: one;}
-.show2{grid-area: two;}
-.phrase{grid-area: three;}
-.heropics{grid-area: four;}
-*/
