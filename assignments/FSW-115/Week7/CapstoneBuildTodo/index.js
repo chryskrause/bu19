@@ -40,19 +40,7 @@ todoForm1.addEventListener("submit", function(event){
 })
 
 
-// const deleteAPI = document.getElementById("deleteAPIs")
 
-
-
-//     const deleteThis = {
-//         id: deleteAPI.id.value
-//     }
-
-//     const deleteURL = "https://api.vschool.io/CKrause/todo/"+whatwhat
-
-// axios.delete(deleteURL)
-//     .then(res => console.log(res.data))
-//     .catch(err => console.log(err))
 // })
 const deleteAPI1 = document.getElementById("deleteAPIs")
 const deleteInput = deleteAPI1.id
