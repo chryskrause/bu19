@@ -1,50 +1,59 @@
-import React, {useState} from 'react';
-import './App.css';
+import React, { Component } from "react";
+import { Route, Link, Switch, BrowserRouter } from "react-router-dom";
+// import "./App.css";
 
-function App() {
-  const [num1, setNum1] = useState("")
-  const [num2, setNum2] = useState("")
-  const [answer, setAnswer] = useState("")
+import Add from "./Components/Add.js";
+import Multiply from "./Components/Multiply.js";
+import Subtract from "./Components/Subtract.js";
+import Divide from "./Components/Divide.js";
 
-  function add(){
-    setAnswer(setAnswer => setNum1 + setNum2)
-  }
-  function subtract(){
-    setAnswer(setNum1 - setNum2)
-  }
-  function multiply(){
-    setAnswer(setNum1 * setNum2)
-  }
-  function divide(){
-    setAnswer(setNum1 / setNum2)
-  }
-  function handleChange(){
-    
-  }
-
-  return (
-    <div>
-      <form>
-        <input
-          type="text" 
-          value={num1} 
-          name="num1" 
-          placeholder="First Number"
-          onChange={handleChange} />
-          <input
-          type="text" 
-          value={num2} 
-          name="num2" 
-          placeholder="Second Number"
-          onChange={handleChange} />
-          <button onClick={add}>Add</button>
-          <button onClick={subtract}>Subtract</button>
-          <button onClick={multiply}>Multiply</button>
-          <button onClick={divide}>Divide</button>
-      </form>
-      <h1>{answer}</h1>
-    </div>
+class App extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+      <div>
+        <nav className="nav">
+          <ul className="nav-lists">
+            <li className="navList-items">
+              <Link to="/add">Add</Link>
+            </li>
+            <li className="navList-items">
+              <Link to="/subtract">Subtract</Link>
+            </li>
+            <li className="navList-items">
+              <Link to="/multiply">Multiply</Link>
+            </li>
+            <li className="navList-items">
+              <Link to="/divide">Divide</Link>
+            </li>
+          </ul>
+        </nav>
+        <Switch>
+          <Route path="/add">
+            <Add operator="+" />
+          </Route>
+          <Route path="/subtract">
+            <Subtract operator="-" />
+          </Route>
+          <Route path="/multiply">
+            <Multiply operator="*" />
+          </Route>
+          <Route path="/divide">
+            <Divide operator="/" />
+          </Route>
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
+}
 }
 
 export default App;
+
+
+
+
+
+
+
+
