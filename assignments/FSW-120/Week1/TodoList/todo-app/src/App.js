@@ -1,4 +1,6 @@
-import React from "react"
+import React from 'react';
+// import logo from './logo.svg';
+import './App.css';
 import "./index.css"
 
 function App(){
@@ -15,4 +17,3 @@ function App(){
 }
 
 export default App;
-

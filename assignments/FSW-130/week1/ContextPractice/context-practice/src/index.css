@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://www.fg-a.com/wallpapers/white-marble-2-2018.jpg");
 }
 
 code {
@@ -13,15 +12,32 @@ code {
     monospace;
 }
 
-
-
-div {
-  font-size: 30px;  
+h1 {
+  padding: 30px;
+  margin: 0px;
 }
 
-p {
-  font-size: 15px;
+
+
+h4 {
+  padding: 50px;
+  font-size: 30px;
+  margin-top: 20px;
   text-decoration: underline;
-  margin-left: 20px;
-  padding-bottom: 30px;
 }
+
+.pic {
+  height: 300px;
+  width: auto;
+}
+.dark-theme {
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.light-theme {
+  background-color: lightgray;
+  color: black;
+}
+
+
