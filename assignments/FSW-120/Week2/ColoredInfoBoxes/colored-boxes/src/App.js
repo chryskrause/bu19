@@ -27,7 +27,7 @@ function App() {
       <Boxes 
         Title="Box 4" 
         Subtitle="Black Box" 
-        Information="This is the of power and depth" 
+        Information="This is the box of power and depth" 
         style={{backgroundColor: "black", color: "white"}}
       />
       <Boxes 
