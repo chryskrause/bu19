@@ -1,19 +1,22 @@
-import React, {Component} from "react"
+import React from "react"
 
 const {Provider, Consumer} = React.createContext()
 
-class ThemeContextProvider extends Component {
+class ThemeContextProvider extends React.Component {
     state = {
-        animal: "",
-        imageURL: ""
+        animal: "(Your Animal name will show up here)"
     }
-//event.target.value
+
+        changeAnimal = (animal) => {
+            this.setState({animal})
+        }
 
     render(){
-        return(
-            <ThemeContextProvider value={{animal: event.target.value, imageURL: event.target.value}}>
+        const {animal} = this.state
+        return (
+            <Provider value={{animal, changeAnimal: this.changeAnimal}}>
                 {this.props.children}
-            </ThemeContextProvider>
+            </Provider>
 
         )
     }

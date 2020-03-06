@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: dimgrey;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* .superhero-stuff{
+  align-items: center;
+} */
+
+.heropics{
+  height: 300px;
+  width: auto;
+  padding-left: 65px;
+  padding-right: 100%;
+  padding-bottom: 75px;
+  border-bottom: 3px dashed 
+}
+
+.name1{
+  display: inline-block;
+  text-decoration: underline;
+  color: white;
+  border: 1px dotted red;
+  margin-left: 60px
+}
+
+.show2{
+  color: yellow;
+  margin-left: 70px
+}
+
+.phrase{
+  margin-left: 80px;
+  color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+
