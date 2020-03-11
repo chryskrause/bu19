@@ -27,12 +27,12 @@ handleClick(){
 
 render(){
     return(
-        <div>
-            {this.state.num1}<br></br>
-            {this.state.num2}<br></br>
-            {this.state.num3}<br></br>
-            {this.state.num4}<br></br>
-            {this.state.num5}<br></br>
+        <div className="diceNums">
+            <div>{this.state.num1}<br></br></div>
+            <div>{this.state.num2}<br></br></div>
+            <div>{this.state.num3}<br></br></div>
+            <div>{this.state.num4}<br></br></div>
+            <div>{this.state.num5}<br></br></div>
             <button onClick={this.handleClick}>Roll!</button>
         </div>
     )
