@@ -9,7 +9,8 @@ import {ThemeContextConsumer} from "./themeContext"
 class App extends React.Component {
 
   state = {
-    newAnimal: ""
+    newAnimal: "",
+    animalArray: animalList
   }
 
 // handleChange() {
@@ -27,7 +28,7 @@ class App extends React.Component {
   }
 
   render(){
-  const allAnimals = animalList.map(list => <Animals key={list.id} list={list} />)
+  const allAnimals = this.state.animalArray.map(list => <Animals key={list.id} list={list} />)
   return (
     <div>
       <ThemeContextConsumer>
