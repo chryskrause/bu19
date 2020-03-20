@@ -32,14 +32,14 @@ class App extends React.Component {
                         <p>The animal you've chosen: {animal}!  Check back later for picture!</p>
                         <input 
                             type="text"
-                            name="newAnimal" 
-                            placeholder="Animal Name" 
+                            name="newAnimal"
+                            placeholder="Animal Name"
                             value={this.state.newAnimal}
                             onChange={this.handleChange}
                             />
                           <input 
                             type="text"
-                            name="newImg" 
+                            name="newImg"
                             placeholder="Animal Image" 
                             value={this.state.newImg}
                             onChange={this.handleChange}
@@ -49,7 +49,7 @@ class App extends React.Component {
                     </form>
                     {console.log(animalArray)}
                     {animalArray.map(list => <Animals key={list.id} list={list} />)}
-                  </div>
+                  </div> 
                 )}
                 
           </ThemeContextConsumer>
