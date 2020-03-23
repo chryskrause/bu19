@@ -2,29 +2,40 @@ import React from "react"
 import { ThemeContextConsumer } from "./themeContext"
 
 class Form extends React.Component {
-    state = {
+    constructor(){
+        super()
+        this.state = {
         yourTitle: "",
         yourNewImg: "",
-        yourDescription: ""
+        yourDescription: "",
+        uglyIdeas: ["Your Ugly Thing: "]
     }
+    this.handleChange = this.handleChange.bind(this)
+    this.changeUgly = this.changeUgly.bind(this)
+}
 
     handleChange = (e) => {
         e.preventDefault()
         const {name, value} = e.target
-        this.setState({[name]: value})
-    }
-
-    changeUgly = (title, image, description, e) => {
-        e.preventDefault()
-        this.setState(prevState => {
-            return{
-              uglyThingRender: [...prevState, {yourTitle: title, yourNewImg: image, yourDescription: description}]  
-            }
+        this.setState({[name]: value
         })
     }
 
+    changeUgly = (event) => {
+        event.preventDefault()
+        this.setState(prevState => {
+            return{
+                uglyIdeas: [...prevState.uglyIdeas,<br />, this.state.yourTitle,<br />, this.state.yourDescription,<br />, <img src={this.state.yourNewImg} alt="" />]
+                
+            }
+
+        })
+
+    }
+
+
+
     render(){
-        const {uglyThingRender} = this.state
         return(
             <ThemeContextConsumer>
                 {({changeUgly}) => (
@@ -53,9 +64,10 @@ class Form extends React.Component {
                     onChange={this.handleChange}                
                 />
                 <br />
-                <button onClick={(e) => changeUgly(this.state.yourTitle, this.state.yourNewImg, this.state.yourDescription, e)}>Submit</button>
+                {/* <button onClick={(e) => changeUgly(this.state.yourTitle, this.state.yourNewImg, this.state.yourDescription, e)}>Submit</button> */}
+                <button onClick={this.changeUgly}>Submit</button>
             </form>
-            {uglyThingRender}
+                <h1>{this.state.uglyIdeas}</h1>                
         </div>
             )}
             </ThemeContextConsumer>
