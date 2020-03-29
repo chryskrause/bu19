@@ -94,10 +94,4 @@ store.subscribe(() => {
     console.log(store.getState())
 })
 
-store.dispatch(addName("Chrystal"))
-store.dispatch(addPhone("555-555-9034"))
-store.dispatch(addEmail("chrystal@chrystal.com"))
-store.dispatch(addName("Slick Rick"))
-store.dispatch(addPhone("555-555-5555"))
-store.dispatch(addEmail("slickrick@chrystal.com"))
-store.dispatch(deleteName("Chrystal"))
+
