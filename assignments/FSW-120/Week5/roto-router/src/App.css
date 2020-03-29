@@ -41,7 +41,8 @@
 } */
 
 .homeBottom{
-  color: rgb(187, 17, 17)
+  color: rgb(187, 17, 17);
+  padding-bottom: 10em;
 }
 
 .homeBottom > h2 {
