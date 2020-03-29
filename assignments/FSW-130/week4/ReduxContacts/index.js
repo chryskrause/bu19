@@ -28,14 +28,14 @@ function deleteName(name){
     }
 }
 
-function deleteContact(email){
+function deleteEmail(email){
     return{
         type: "DELETE_EMAIL",
         payload: email
     }
 }
 
-function deleteContact(phone){
+function deletePhone(phone){
     return{
         type: "DELETE_PHONE",
         payload: phone
@@ -94,4 +94,12 @@ store.subscribe(() => {
     console.log(store.getState())
 })
 
-
+store.dispatch(addName("Tom Jones"))
+store.dispatch(addEmail("tommyBoy@tommy.com"))
+store.dispatch(addPhone("555-555-8955"))
+store.dispatch(addName("Chrystal"))
+store.dispatch(addEmail("chrystal@chrystal.com"))
+store.dispatch(addPhone("972-654-9872"))
+store.dispatch(deleteName("Tom Jones"))
+store.dispatch(deletePhone("555-555-8955"))
+store.dispatch(deleteEmail("tommyBoy@tommy.com"))

@@ -29,7 +29,7 @@ class Form extends React.Component {
     handleClick = (event) => {
         event.preventDefault()
         this.setState(prevState =>{
-        const newBadge = {main: `Number ${prevState.badgeArray.length + 1}:`, firstName: prevState.firstName, lastName: prevState.lastName, email: prevState.email, placeOfBirth: prevState.placeOfBirth, phone: prevState.phone, favoriteFood: prevState.favoriteFood}
+        const newBadge = {main: `Number ${prevState.badgeArray.length + 1}:`, firstName: prevState.firstName, lastName: prevState.lastName, email: prevState.email, placeOfBirth: prevState.placeOfBirth, phone: prevState.phone, favoriteFood: prevState.favoriteFood, aboutYou: prevState.aboutYou}
         return{
             badgeArray: [...prevState.badgeArray, newBadge]
         }
@@ -85,7 +85,7 @@ class Form extends React.Component {
                         type="text" 
                         name="aboutYou" 
                         value={this.aboutYou} 
-                        onClick={this.handleChange} 
+                        onChange={this.handleChange} 
                         rows="5" cols="100" 
                         placeholder="Tell us about you!" 
                     />
