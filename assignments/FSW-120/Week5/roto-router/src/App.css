@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+/* .homeTop{
+  background-color: rgba(0, 0, 255, 0.473);
+} */
+
+.homeBottom{
+  color: rgb(187, 17, 17)
+}
+
+.homeBottom > h2 {
+  font-size: 35px;
+}
+
+.homeBottom > p {
+  font-size: 20px;
+  margin-left: 10em;
+  margin-right: 10em;
+  color: black;
+}
+
+body{
+  background-color: rgba(0, 0, 255, 0.473);
+}
+
+.welcome {
+  padding-top: 2em;
+  font-size: 65px;
+  text-decoration: underline;
+  color: rgb(187, 17, 17);
+}
+
+.navbar{
+  font-size: 25px;
+  padding: 1em;
+  background-color: rgba(119, 136, 153, 0.719);
+}
+
+.links {
+  margin-right: 150px;
+  justify-content: center;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(119, 136, 153, 0.719);
+  text-align: center;
+  padding: 1em;
+}
+
+.footLinks{
+  margin-right: 25px;
+}
+
