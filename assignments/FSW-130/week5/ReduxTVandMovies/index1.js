@@ -1,4 +1,4 @@
-import store from "./redux/index"
+import store from "./redux/index.js"
 import {addMovie} from ".redux/movies"
 import {removeMovie} from ".redux/movies"
 import {addShow} from ".redux/tvshows"
