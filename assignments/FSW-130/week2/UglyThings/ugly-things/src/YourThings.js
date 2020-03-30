@@ -1,7 +1,7 @@
 import React from "react"
 import './App.css';
 
-function UglyThings(){
+function YourThings(){
     return(
         <div>
             <h5>Ugly Shoes</h5>
@@ -14,5 +14,4 @@ function UglyThings(){
     )
 }
 
-export default UglyThings
-//<img src={logo} alt="Logo" />
+export default YourThings

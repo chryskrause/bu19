@@ -1,14 +1,14 @@
 import React from "react"
 import { ThemeContextConsumer } from "./themeContext"
 
-class Form extends React.Component {
+class YourForm extends React.Component {
     constructor(){
         super()
         this.state = {
         yourTitle: "",
         yourNewImg: "",
         yourDescription: "",
-        uglyIdeas: ["Your Ugly Thing: "]
+        uglyIdeas: ["Your choices: "]
     }
     this.handleChange = this.handleChange.bind(this)
     this.changeUgly = this.changeUgly.bind(this)
@@ -41,7 +41,7 @@ class Form extends React.Component {
                 {({changeUgly}) => (
         <div>
             <form name="uglyForm">
-                <h3>Add your own ugly thing!! Add your selection in the input forms!</h3>
+                <h3>Create your own webpage! Just choose a title, image URL and description, and it will appear here.  Use links in the Navigation bar for examples!</h3>
                 <input 
                     type="text"
                     name="yourTitle"
@@ -75,4 +75,4 @@ class Form extends React.Component {
     }
 }
 
-export default Form
+export default YourForm
