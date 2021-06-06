@@ -3,6 +3,7 @@ import feed from "./feed"
 import MainFeed from "./MainFeed"
 
 function Home (){
+    const {feeds, updateFeed} = setState{feed}
     const homeFeed = feed.map(box => <MainFeed key={box.id} box={box}/>)
     return(
         <div>
